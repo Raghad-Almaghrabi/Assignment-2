@@ -30,7 +30,7 @@ This web application was enhanced to include:
 ---
 
 ## 📂 Folder Structure
-
+```
 assignment-2/
 ├── README.md
 ├── index.html
@@ -44,6 +44,7 @@ assignment-2/
 │   ├── ai-usage-report.md
 │   └── technical-documentation.md
 └── .gitignore
+```
 
 
 ---
@@ -57,9 +58,47 @@ Open your terminal and run:
 ```bash
 git clone https://github.com/<your-username>/portfolio-ai-enhanced.git
 
+```
+
+
 
 ### 🪜 Step 2 — Open the Portfolio 
 If you’re using the HTML version:
 Open the folder in your file explorer.
 Double-click index.html to open it in your browser.
-That’s it! The website will load locally.
+✅ The website will load locally.
+
+
+---
+
+## 💡 Interactive Features
+
+| Feature | Description | Type of Interaction |
+|----------|--------------|--------------------|
+| **Greeting Popup** | Displays a personalized greeting (Morning / Afternoon / Evening) | Time-based |
+| **Project Filter / Search** | Filter or search projects dynamically | User Input |
+| **Light / Dark Mode Toggle** | Switch between light and dark themes | Click |
+| **Live Clock Footer** | Continuously updates to show current local time | Auto-update |
+
+---
+
+## 🎨 Theme Design
+
+- **Light Mode** → White background with black text for high readability.  
+- **Dark Mode** → Dark background `#0b0b0b` with light text `#f2f2f2` and Netflix-style red accent `#e50914`.
+
+---
+
+## 🤖 AI Integration Summary
+
+AI tools were used meaningfully to:
+
+- Generate and refine **helper text**, form placeholders, and popup content.  
+- Suggest **accessibility improvements** (e.g., ARIA roles, contrast colors).  
+- Debug **JavaScript logic** for pop-ups and event listeners.  
+- Create and polish **documentation** (`README.md` + `AI Usage Report`).
+
+📄 Detailed prompts, outputs, and reflections are documented in  
+[`docs/ai-usage-report.md`](./docs/ai-usage-report.md).
+
+---
