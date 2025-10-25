@@ -3,7 +3,7 @@
 
 ## 📑 `docs/ai-usage-report.md`
 
-```markdown
+
 # 🤖 AI Usage Report
 
 ## 🧰 Tools Used
